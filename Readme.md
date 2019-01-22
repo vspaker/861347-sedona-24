@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Павел Николаев](https://up.htmlacademy.ru/htmlcss/24/user/861347).
-* Наставник: [Елизавета Винокурова] (https://up.htmlacademy.ru/htmlcss/24/user/123355).
+* Наставник: [Елизавета Винокурова](https://up.htmlacademy.ru/htmlcss/24/user/123355).
 
 ---
 
