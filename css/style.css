@@ -7,3 +7,12 @@
 .footer-social .youtube {
   background: #4169e1 url("../img/youtube.svg") no-repeat;
 }
+.rating-stars li {
+	background: url("../img/star.svg") no-repeat;
+}
+.sorting-arrows .up {
+	background: url("../img/icon-up-dir.svg") no-repeat;
+}
+.sorting-arrows .down {
+	background: url("../img/icon-down-dir.svg") no-repeat;
+}
