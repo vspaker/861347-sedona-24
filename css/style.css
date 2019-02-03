@@ -1,11 +1,48 @@
 .footer-social .twitter {
-  background: #4169e1 url("../img/twitter.svg") no-repeat;
+  background: #81b3d2 url("../img/twitter.svg") no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: 50% 50%;
 }
 .footer-social .facebook {
-  background: #4169e1 url("../img/fb-icon.svg") no-repeat;
+  background: #81b3d2 url("../img/fb-icon.svg") no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: 50% 50%;
 }
 .footer-social .youtube {
-  background: #4169e1 url("../img/youtube.svg") no-repeat;
+  background: #81b3d2 url("../img/youtube.svg") no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: 50% 50%;
+}
+.footer-social a {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+.footer-social a:focus {
+outline: none;
+	box-shadow:
+		0 0 0 1px #fff,
+		0 0 0 2px #81b3d2;
+}
+.sorting-arrows a {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+.sorting-arrows a:focus {
+	outline: none;
+	box-shadow:
+		0 0 0 1px #fff,
+		0 0 0 2px #81b3d2;
+}
+li {
+	list-style: none;
 }
 .rating-stars li {
 	background: url("../img/star.svg") no-repeat;
@@ -15,4 +52,14 @@
 }
 .sorting-arrows .down {
 	background: url("../img/icon-down-dir.svg") no-repeat;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
