@@ -1,26 +1,26 @@
-.footer-social .twitter {
+.footer-social {
+	display: flex;
+}
+.twitter {
   background: #81b3d2 url("../img/twitter.svg") no-repeat;
-  display: inline-block;
   width: 30px;
   height: 30px;
   background-position: 50% 50%;
 }
-.footer-social .facebook {
+.facebook {
   background: #81b3d2 url("../img/fb-icon.svg") no-repeat;
-  display: inline-block;
   width: 30px;
   height: 30px;
   background-position: 50% 50%;
 }
-.footer-social .youtube {
+.youtube {
   background: #81b3d2 url("../img/youtube.svg") no-repeat;
-  display: inline-block;
   width: 30px;
   height: 30px;
   background-position: 50% 50%;
 }
 .footer-social a {
-	display: block;
+	display: flex;
 	width: 30px;
 	height: 30px;
 }
@@ -31,7 +31,7 @@ outline: none;
 		0 0 0 2px #81b3d2;
 }
 .sorting-arrows a {
-	display: inline-block;
+	display: flex;
 	width: 15px;
 	height: 15px;
 }

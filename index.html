@@ -70,14 +70,14 @@
     		<span class="lead-magnet-heading">Заинтересовались?</span>
     		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
     		<!-- Здесь будет форма -->
-            <form class="hotel-search-index" action="https://echo.htmlacademy.ru" method="post" aria-label="Поиск гостиниц в Седоне">
+            <form class="hotel-search-index" action="https://echo.htmlacademy.ru" method="get" aria-label="Поиск гостиниц в Седоне">
                 <fieldset>
                     <legend>Поиск гостиницы в Седоне</legend>
                     <label><input type="date" name="checkin-date">Дата заезда</label>
                     <label><input type="date" name="checkout-date">Дата выезда</label>
                     <label><input type="number" name="adults" min="1" step="1" value="1">Взрослые</label>
                     <label><input type="number" name="children" min="1" step="1" value="1">Дети</label>
-                    <input type="button" name="search" value="Найти">
+                    <button type="submit" name="search">Найти</button>
                 </fieldset>
             </form>
     		<div class="map"><!-- А здесь - карта --></div>
