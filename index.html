@@ -2,13 +2,15 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   </head>
   <body>
   	<header class="main-header">
   		<nav class="main-navigation">
-  			<a class="main-header-logo"><img src="img/logo-sedona.svg" width="110" height="60" alt="Логотип сайта о городе Седона"></a>
+  			<a class="main-header-logo"><img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип сайта о городе Седона"></a>
   			<ul class="site-navigation">
   				<li><a href="info.html">Информация</a></li>
   				<li><a href="gallery.html">Фото и видео</a></li>
@@ -24,10 +26,11 @@
             <h2 class="visually-hidden">Преимущества Седоны</h2>
     		<ul class="reasons-list">
     			<li class="reason-item-image-right">
-    				<h3 class="reason-heading">Настоящий городок</h3>
+                <div class="subreason">
+                    <h3 class="reason-heading">Настоящий городок</h3>
     				<p>- № 1 -</p>
     				<p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-    				<img src="img/sedona-street.jpg" width="800" height="256" alt="Вид на улицу Седоны">
+    				<img src="img/sedona-street.jpg" width="800" height="256" alt="Вид на улицу Седоны"></div>
     				<ul class="reasons-list-sub">
     					<li>
     						<b>Жильё</b>
@@ -43,7 +46,7 @@
     					</li>
     				</ul>
     			</li>
-    			<li class="reason-item-image-left">
+    			<li class="subreason">
     				<img src="img/sedona-bridge.jpg" width="800" height="256" alt="Мост дьявола в Седоне">
     				<h3 class="reason-heading">Там есть Мост дьявола</h3>
     				<p>- № 2 -</p>
@@ -70,17 +73,17 @@
     		<span class="lead-magnet-heading">Заинтересовались?</span>
     		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
     		<!-- Здесь будет форма -->
-            <form class="hotel-search-index" action="https://echo.htmlacademy.ru" method="get" aria-label="Поиск гостиниц в Седоне">
-                <fieldset>
-                    <legend>Поиск гостиницы в Седоне</legend>
-                    <label><input type="date" name="checkin-date">Дата заезда</label>
-                    <label><input type="date" name="checkout-date">Дата выезда</label>
-                    <label><input type="number" name="adults" min="1" step="1" value="1">Взрослые</label>
-                    <label><input type="number" name="children" min="1" step="1" value="1">Дети</label>
-                    <button type="submit" name="search">Найти</button>
-                </fieldset>
+            
+            <div class="index-form-heading">Поиск гостиницы в Седоне</div>
+            <div class="map">
+            <form class="hotel-search-index" action="https://echo.htmlacademy.ru" method="get" aria-label="Поиск гостиниц в Седоне">                
+                    <div class="check-in"><label>Дата заезда: <input type="date" name="checkin-date" placeholder="24 апреля 2017"></label></div>
+                    <div class="check-out"><label>Дата выезда: <input type="date" name="checkout-date"></label></div>
+                    <div class="adl"><label>Взрослые: <input type="number" name="adults" min="1" step="1" value="1"></label></div>
+                    <div class="chld"><label>Дети: <input type="number" name="children" min="1" step="1" value="1"></label></div>
+                    <button type="submit" name="search" class="index-button">Найти</button>  
             </form>
-    		<div class="map"><!-- А здесь - карта --></div>
+    		</div>
     	</section> 	
     </main>
  	<footer class="main-footer">
