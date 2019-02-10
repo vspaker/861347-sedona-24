@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   </head>
   <body>
-  	<header class="main-header">
+  	<header class="container main-header">
   		<nav class="main-navigation">
   			<a class="main-header-logo"><img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип сайта о городе Седона"></a>
   			<ul class="site-navigation">
@@ -19,7 +19,7 @@
   			</ul>
   		</nav>
   	</header>
-    <main class="container">
+    <main class="container index">
     	<h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
     	<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     	<section class="reasons">
@@ -33,14 +33,17 @@
     				<img src="img/sedona-street.jpg" width="800" height="256" alt="Вид на улицу Седоны"></div>
     				<ul class="reasons-list-sub">
     					<li>
+                            <div class="icon-1"></div>
     						<b>Жильё</b>
     						<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
     					</li>
     					<li>
+                            <div class="icon-2"></div>
     						<b>Еда</b>
     						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
     					</li>
     					<li>
+                            <div class="icon-3"></div>
     						<b>Сувениры</b>
     						<p>Не только китайского, но и местного производства!</p>
     					</li>
@@ -74,11 +77,11 @@
     		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
     		<!-- Здесь будет форма -->
             
-            <div class="index-form-heading">Поиск гостиницы в Седоне</div>
+            <a class="index-form-button" href="#">Поиск гостиницы в Седоне</a>
             <div class="map">
             <form class="hotel-search-index" action="https://echo.htmlacademy.ru" method="get" aria-label="Поиск гостиниц в Седоне">                
-                    <div class="check-in"><label>Дата заезда: <input type="date" name="checkin-date" placeholder="24 апреля 2017"></label></div>
-                    <div class="check-out"><label>Дата выезда: <input type="date" name="checkout-date"></label></div>
+                    <div class="check-in"><label>Дата заезда: <input type="text" name="checkin-date" placeholder="24 апреля 2017"></label></div>
+                    <div class="check-out"><label>Дата выезда: <input type="text" name="checkout-date" placeholder="4 июля 2017"></label></div>
                     <div class="adl"><label>Взрослые: <input type="number" name="adults" min="1" step="1" value="1"></label></div>
                     <div class="chld"><label>Дети: <input type="number" name="children" min="1" step="1" value="1"></label></div>
                     <button type="submit" name="search" class="index-button">Найти</button>  
@@ -86,7 +89,7 @@
     		</div>
     	</section> 	
     </main>
- 	<footer class="main-footer">
+ 	<footer class="container main-footer">
     	<p class="sedona-hashtag">#VISITSEDONA</p>
     	<ul class="footer-social">
     		<li><a class="twitter" href="#" aria-label="Седона в Твиттере"></a></li>
