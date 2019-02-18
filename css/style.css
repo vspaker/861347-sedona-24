@@ -62,9 +62,9 @@ a {
 	padding-top: 15px;
 }*/
 .main-header-logo {
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 605px;
+	left: 50%;
 }
 .site-navigation a {
 	color: #000000;
