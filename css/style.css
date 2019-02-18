@@ -62,9 +62,9 @@ a {
 	padding-top: 15px;
 }*/
 .main-header-logo {
-	position: relative;
-	top: 0px;
-	left: 50%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: -75px;
 }
 .site-navigation a {
 	color: #000000;
@@ -92,7 +92,6 @@ a {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	border-top: 1px solid transparent;
 }
 /*.container ul, .container li {
 	padding: 0;
@@ -107,6 +106,7 @@ a {
 	margin: 0;
 }*/
 .index {
+	padding-top: 1px;
 	background-image: 
 			url("../img/intro-mask.svg"),
 			url("../img/intro-welcome.svg"),
@@ -116,7 +116,7 @@ a {
 			460px 355px,
 			auto auto;
   	background-position:
-  			center 453px,
+  			center 454px,
   			50% 50px,
   			top center;
   	background-repeat:
@@ -300,7 +300,6 @@ ul .reasons-list-sub {
 	background-color: #ffffff;
 }
 .index-form-button {
-	border-top: 1px solid transparent;
 	display: flex;
 	width: 575px;
 	box-sizing: border-box;
