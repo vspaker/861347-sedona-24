@@ -222,10 +222,10 @@ a {
 
 	color: #000000;
 }
-.container p:first-child {
+/*.container p:first-child {
 	font-size: 14px;
 	line-height: 26px;
-}
+}*/
 .reasons-list li {
 	list-style: none;
 }
@@ -429,13 +429,6 @@ ul .reasons-list-sub {
 	/*justify-content: space-between;*/
 	align-items: center;
 	min-height: 120px;
-}
-.main-footer p.sedona-hashtag {
-	width: 140px;
-	margin-left: 130px;
-	font-size: 21px;
-	line-height: 26px;
-	text-align: center;
 }
 ul.footer-social {
 	width: 155px;
@@ -724,10 +717,13 @@ article h2 {
 	text-align: left;
 }
 .sedona-hashtag {
+	width: 140px;
+	margin-left: 130px;
 	font-size: 21px;
 	line-height: 26px;
-	color: #000000;
-	font-weight: 700;
+	text-align: center;
+  font-weight: 700;
+  color: #000000;
 }
 /*.footer-social {
 	display: flex;
