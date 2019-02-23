@@ -20,92 +20,81 @@
         </nav>
     </header>
     <main class="container index">
-        <div class="index-row-first">
+        <div class="description">
             <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         </div>
         
         <section class="reasons">
             <h2 class="visually-hidden">Преимущества Седоны</h2>
-            <ul class="reasons-list">
-                
-                <li class="subreason">
-                    <div class="reason-item-image-right">
-                <div class="index-row-second">
-                    <div class="index-row-second-inner-first">
-                    <h3 class="reason-heading">Настоящий городок</h3>
-                    <p>- № 1 -</p>
-                    <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p></div>
-                    <div class="index-row-second-inner-second"><img src="img/sedona-street.jpg" width="800" height="256" alt="Вид на улицу Седоны"></div></div></div>
-                    <ul class="reasons-list-sub">
-                        <li class="index-row-third">
-                            <div class="icon icon-1"></div>
+            <ul class="reasons-list">                
+                <li class="first-reason">
+                    <div class="captioned-reason-description">
+                        <h3>Настоящий городок</h3>
+                        <p>- № 1 -</p>
+                        <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                    </div>
+                    <img src="img/sedona-street.jpg" width="800" height="256" alt="Вид на улицу Седоны">
+                    <ul class="first-reason-sub">
+                        <li>
                             <b>Жильё</b>
                             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                         </li>
-                        <li class="index-row-third">
-                            <div class="icon icon-2"></div>
+                        <li>
                             <b>Еда</b>
                             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                         </li>
-                        <li class="index-row-third">
-                            <div class="icon icon-3"></div>
+                        <li>
                             <b>Сувениры</b>
                             <p>Не только китайского, но и местного производства!</p>
                         </li>
                     </ul>
-                <li class="subreason">
-                    <div class="index-row-fourth">
-                    <div class="index-row-fourth-inner-first">
-                    <img src="img/sedona-bridge.jpg" width="800" height="256" alt="Мост дьявола в Седоне"></div>
-                    <div class="index-row-fourth-inner-second">
-                    <h3 class="reason-heading">Там есть Мост дьявола</h3>
-                    <p>- № 2 -</p>
-                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p></div>
+                </li>
+                <li class="second-reason">
+                    <img src="img/sedona-bridge.jpg" width="800" height="256" alt="Мост дьявола в Седоне">
+                    <div class="captioned-reason-description">
+                        <h3 class="reason-heading">Там есть Мост дьявола</h3>
+                        <p>- № 2 -</p>
+                        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                     </div>
                 </li>
-            </ul>
-                <ul class="index-row-fifth">
-                <li class="reason-item-no-image">
+                <li class="last-reasons">
                     <h3 class="reason-heading">Небольшая площадь</h3>
                     <p>- № 3 -</p>
                     <p>Все достопримечательности находятся очень близко</p>
                 </li>
-                <li class="reason-item-no-image">
+                <li class="last-reasons">
                     <h3 class="reason-heading">Красивая дорога</h3>
                     <p>- № 4 -</p>
                     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                 </li>
-                <li class="reason-item-no-image">
+                <li class="last-reasons">
                     <h3 class="reason-heading">Мало туристов</h3>
                     <p>- № 5 -</p>
                     <p>Большинство едет в гранд каньон и толпится там</p>
                 </li>
-                </ul>    
+            </ul>    
         </section>
         <section class="lead-magnet">
-            <div class="index-row-sixth">
-            <div class="index-row-sixth-inner-first">
-            <span class="lead-magnet-heading">Заинтересовались?</span>
-            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p></div>
-            <!-- Здесь будет форма -->
-            
-            <div class="index-row-sixth-inner-second">
-            <a class="index-form-button" href="#">Поиск гостиницы в Седоне</a></div></div>
-            <div class="index-row-footer">
-                <img src="img/map.jpg" alt="Карта города Седона и прилегающей территории">
-                <div class="index-row-footer-inner-first">
-            <!--<div class="map">-->
+            <div class="lead-magnet-intro">
+                <span>Заинтересовались?</span>
+                <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+                <a href="#">Поиск гостиницы в Седоне</a>
+            </div>
+            <img src="img/map.jpg" width="1200px" height="593px" alt="Карта города Седона и прилегающей территории">
+            <div class="lead-magnet-form">
+                
+                <!--<div class="index-row-footer-inner-first">-->
             <form class="hotel-search-index" action="https://echo.htmlacademy.ru" method="get" aria-label="Поиск гостиниц в Седоне"> 
-                    <div class="check-dates">               
-                    <div class="check-in"><label>Дата заезда: <input type="text" name="checkin-date" placeholder="24 апреля 2017"></label></div>
-                    <div class="check-out"><label>Дата выезда: <input type="text" name="checkout-date" placeholder="4 июля 2017"></label></div></div>
-                    <div class="people-amount">
-                    <div class="adl"><label>Взрослые: <input type="number" name="adults" min="1" step="1" value="1"></label></div>
-                    <div class="chld"><label>Дети: <input type="number" name="children" min="1" step="1" value="1"></label></div></div>
-                    <button type="submit" name="search" class="index-button">Найти</button>  
-            </form>
+                <div class="hotel-search-index-details">               
+                    <label>Дата заезда: <input type="text" name="checkin-date" placeholder="24 апреля 2017"></label>
+                    <label>Дата выезда: <input type="text" name="checkout-date" placeholder="4 июля 2017"></label>
+                    <label>Взрослые: <input type="number" name="adults" min="1" step="1" value="1"></label>
+                    <label>Дети: <input type="number" name="children" min="1" step="1" value="1"></label>
                 </div>
+                <button type="submit" name="search" class="index-button">Найти</button>  
+            </form>
+                <!--</div>-->
             </div>
             
         </section>  
