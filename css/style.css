@@ -40,6 +40,7 @@ a {
 	list-style: none;
 	font-weight: 700;
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
 	padding-left: 0px;
@@ -47,7 +48,8 @@ a {
 
 }
 .site-navigation li {
-	width: 300px;
+	padding-top: 5px;
+	width: 25%;
 }
 .site-navigation li:nth-child(1),
 .site-navigation li:nth-child(2) {
@@ -56,6 +58,10 @@ a {
 .site-navigation li:nth-child(3),
 .site-navigation li:nth-child(4) {
 	text-align: right;
+}
+.site-navigation li:nth-child(5+n) {
+	flex-grow: 1;
+	text-align: center;
 }
 .main-header-logo {
 	display: flex;
