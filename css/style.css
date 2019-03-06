@@ -127,7 +127,7 @@ a {
 			458px 354px,
 			auto auto;
   	background-position:
-  			center 451px,
+  			center 452px,
   			50% 75px,
   			center -56px;
   	background-repeat:
@@ -584,14 +584,15 @@ input[name="children"] {
 	background-color: rgba(255, 255, 255, 1);
 	display: flex;
 	align-items: center;
-	height: 120px;
+	padding: 22px 0;
 }
 .main-footer {
 	background-color: rgba(255, 255, 255, 1);
 	opacity: .9;
 	display: flex;
 	align-items: center;
-	height: 120px;
+	/*height: 120px;*/
+	padding: 22px 0;
 	margin-top: -120px;
 	position: relative;
 	z-index: 2;
