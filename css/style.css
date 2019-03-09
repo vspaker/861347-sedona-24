@@ -105,7 +105,10 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 }
-.container {
+.shadow {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
 	box-shadow: 
 	5px 0 8px -4px rgba(0, 0, 0, 0.2),
 	-5px 0 8px -4px rgba(0, 0, 0, 0.2);
@@ -278,11 +281,15 @@ a {
 	line-height: 24px;
 	min-height: 290px;
 	position: relative;
+	overflow: hidden;
 }
 .lead-magnet-intro {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
 }
 .lead-magnet-intro span {
 	display: block;
@@ -326,7 +333,7 @@ a {
 	color: #928a85;
 }
 .lead-magnet-form {
-	width: 100%;
+	/*width: 100%;
 	display: flex;
 	justify-content: center;
 	/*position: relative;*/
@@ -342,8 +349,14 @@ a {
 	position: absolute;
 	top: 291px; /*-593px;*/
 	left: 315px;
+	z-index: 0;
+	box-shadow: 
+	5px 5px 8px -4px rgba(0, 0, 0, 0.2),
+	-5px 5px 8px -4px rgba(0, 0, 0, 0.2);
 }
-
+.hide {
+	transform: translateY(-400px);
+}
 .hotel-search-index input {
 	background-color: #f2f2f2;
 	color: #000000;
