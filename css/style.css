@@ -110,8 +110,8 @@ a {
 	margin: 0 auto;
 	padding: 0;
 	box-shadow: 
-	5px 0 8px -4px rgba(0, 0, 0, 0.2),
-	-5px 0 8px -4px rgba(0, 0, 0, 0.2);
+	3px 0 8px 0 rgba(0, 0, 0, 0.2),
+	-3px 0 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .reasons ul {
@@ -353,9 +353,11 @@ a {
 	box-shadow: 
 	5px 5px 8px -4px rgba(0, 0, 0, 0.2),
 	-5px 5px 8px -4px rgba(0, 0, 0, 0.2);
+	transition-duration: 1s;
 }
 .hide {
 	transform: translateY(-400px);
+	transition-duration: 1s;
 }
 .hotel-search-index input {
 	background-color: #f2f2f2;
@@ -376,6 +378,8 @@ a {
 	background-color: #ffffff;
 	border: 2px solid #e5e5e5;
 	outline: none;
+	padding-bottom: 2px;
+	padding-top: 1px;
 }
 .hotel-search-index label {
 	color: #000000;
